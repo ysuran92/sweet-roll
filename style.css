@@ -55,11 +55,39 @@ h3 {
     background-attachment: fixed;
 }
 
-.equipmentSection {
+.ingredients {
+    background-image: url("assets/ingredients3.jpg");
+    margin: 0%;
+    padding: 0%;
+    min-height: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cooking-instructions {
+    background-image: url("assets/cooking-instructions.jpg");
+    margin: 0%;
+    padding: 0%;
+    min-height: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.listSection {
     height: 40%;
 }
 
 ul {
+    text-align: center;
+    list-style-position: inside;
+    padding: 0%;
+}
+
+ol {
     text-align: center;
     list-style-position: inside;
     padding: 0%;
@@ -77,4 +105,43 @@ li span {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+
+.preparation {
+    background-image: url("assets/preparation.png");
+    min-height: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.decorations {
+    background-image: url("assets/finished-cake.jpeg");
+    min-height: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.textSection2 {
+    background-color: #642580;
+    padding: 50px 80px;
+    height: 30%;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones as it is not supported */
+
+@media only screen and (max-device-width: 1024px) {
+    .cd-logo,
+    .cake,
+    .kitchen-equipment,
+    .ingredients,
+    .preparation,
+    .cooking-instructions,
+    .decorations {
+        background-attachment: scroll;
+    }
 }
