@@ -42,6 +42,7 @@ h3 {
 .textSection {
     background-color: #642580;
     padding: 50px 80px;
+    text-align: center;
 }
 
 .kitchen-equipment {
@@ -71,7 +72,7 @@ h3 {
     margin: 0%;
     padding: 0%;
     min-height: 100%;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -95,13 +96,13 @@ ol {
 
 li span {
     position: relative;
-    left: -10px;
+    left: 3px;
 }
 
 .cake {
     background-image: url("assets/cake.jpg");
     min-height: 100%;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -110,7 +111,7 @@ li span {
 .preparation {
     background-image: url("assets/preparation.png");
     min-height: 100%;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -119,7 +120,11 @@ li span {
 .decorations {
     background-image: url("assets/finished-cake.jpeg");
     min-height: 100%;
-    background-size: auto;
+    background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
