@@ -6,7 +6,7 @@ html {
     color: White;
 }
 
-.cd-logo .kitchen-equipment .cake {
+.kitchen-equipment .cake {
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ li span {
 /* Turn off parallax scrolling for tablets and phones as it is not supported */
 
 @media only screen and (max-device-width: 1024px) {
-    .cd-logo,
+    .ysuran-logo,
     .cake,
     .kitchen-equipment,
     .ingredients,
@@ -146,13 +146,13 @@ li span {
         background-attachment: scroll;
     }
     .listSection1 {
-        height: 100%;
-    }
-    .listSection2 {
         height: 80%;
     }
+    .listSection2 {
+        height: 70%;
+    }
     .listSection3 {
-        min-height: 100%;
+        min-height: 95%;
     }
     .listSection4 {
         min-height: 80%;
