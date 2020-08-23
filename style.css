@@ -79,7 +79,15 @@ h3 {
 }
 
 .listSection {
-    height: 40%;
+    height: 30%;
+}
+
+.listSection2 {
+    height: 30%;
+}
+
+.listSection3 {
+    max-height: 22%;
 }
 
 ul {
@@ -149,9 +157,6 @@ li span {
     .decorations {
         background-attachment: scroll;
     }
-}
-
-@media only screen and (max-device-width: 768px) {
     .listSection2 {
         height: 100%;
     }
