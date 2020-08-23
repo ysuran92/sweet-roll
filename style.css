@@ -153,6 +153,6 @@ li span {
 
 @media only screen and (max-device-width: 768px) {
     .listSection2 {
-        height: 60%;
+        height: 100%;
     }
 }
