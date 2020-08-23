@@ -146,15 +146,15 @@ li span {
         background-attachment: scroll;
     }
     .listSection1 {
-        height: 65%;
+        height: 60%;
     }
     .listSection2 {
-        height: 66%;
+        height: 63%;
     }
     .listSection3 {
-        min-height: 92%;
+        min-height: 90%;
     }
     .listSection4 {
-        min-height: 80%;
+        min-height: 79%;
     }
 }
